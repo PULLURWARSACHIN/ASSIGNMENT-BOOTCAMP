@@ -4,19 +4,19 @@ class student{
 	}
 }
 
-class boy extends student{
+class boy {
 	void boy() {
 		System.out.println("he sat at his place");
 	}
 }
 
-class girl extends boy{
+class girl {
 	void girl() {
 		System.out.println("he saw a girl");
 	}
 }
 
-class crush extends girl{
+class crush {
 	void crushed() {
 		System.out.println("he had a crush on her");
 	}
@@ -32,11 +32,7 @@ class Main{
 		charan.boy();
 		rt.girl();
 		r2.crushed();
-		System.out.println("By using multiple inheritance");
-		r2.exam();
-		r2.boy();
-		r2.girl();
-		r2.crushed();
+		
 	}
 	}
 	
